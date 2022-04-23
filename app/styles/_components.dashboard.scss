@@ -17,6 +17,11 @@
 .c-dashboard {
   margin: 8px 16px;
 
+  input{
+    border: 2px solid #ddd;
+    padding: 8px 16px;
+    border-radius: 4px;
+  }
   .c-dashboard__header {
     display: flex;
     justify-content: center;
@@ -29,7 +34,15 @@
   }
 }
 
+.c-not-found{
+  text-align: center;
+  padding: 65px 30px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
 .c-filters__container {
+  text-align: center;
   margin: 0 0 8px;
   padding: 16px 8px;
   border: 1px solid #dcdee3;
@@ -42,10 +55,13 @@
 }
 
 .c-button {
-  height: 40px;
+ // height: 40px;
   background-color: #0099ff;
   color: white;
   min-width: 120px;
-  padding: 0 16px;
+  padding: 10px 16px;
   border-radius: 4px;
+}
+.highlighted {
+  background-color: yellow; 
 }
