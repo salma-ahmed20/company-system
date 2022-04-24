@@ -34,13 +34,6 @@
   }
 }
 
-.c-not-found{
-  text-align: center;
-  padding: 65px 30px;
-  font-size: 20px;
-  font-weight: bold;
-}
-
 .c-filters__container {
   text-align: center;
   margin: 0 0 8px;
@@ -56,13 +49,20 @@
 }
 
 .c-button {
- // height: 40px;
   background-color: #0099ff;
   color: white;
   min-width: 120px;
   padding: 10px 16px;
   border-radius: 4px;
 }
+
 .highlighted {
   background-color: yellow; 
+}
+
+.c-not-found{
+  text-align: center;
+  padding: 65px 30px;
+  font-size: 20px;
+  font-weight: bold;
 }
